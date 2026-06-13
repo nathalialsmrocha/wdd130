@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Fale com a Rafting Nathalia. Tire dúvidas, faça reservas ou envie sugestões sobre nossos passeios de rafting.">
+    <meta name="author" content="Nathalia L Monte da Rocha">
+
+    <link rel="stylesheet" href="estilos/rafting.css">
+
+    <title>Fale Conosco - Rafting Nathalia</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="imagens/logo.png" alt="Logo da Empresa" width="150">
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="passeios.html">Passeios</a></li>
+                <li><a href="contato.html">Fale Conosco</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h1>Fale Conosco</h1>
+
+            <p><strong>Endereço:</strong> Rua das Aventuras, 100 - Pernambuco, Brasil</p>
+            <p><strong>Telefone:</strong> (81) 99999-9999</p>
+            <p><strong>E-mail:</strong> contato@raftingnathalia.com</p>
+
+            <!-- 🗺️ MAPA DO GOOGLE PRONTO -->
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.9628!2d-34.8813!3d-8.0476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18a1c0f000001%3A0x0!2sRecife%2C%20PE!5e0!3m2!1spt-BR!2sbr!4v1718030000000"
+                width="100%" 
+                height="300"
+                loading="lazy">
+            </iframe>
+
+        </section>
+
+        <section>
+            <h2>Nossa Equipe</h2>
+
+            <figure>
+                <img src="imagens/equipe1.jpg" alt="Guia de rafting" width="150">
+                <figcaption>Lucas Andrade - Guia Principal</figcaption>
+            </figure>
+
+            <figure>
+                <img src="imagens/equipe2.jpg" alt="Instrutora de segurança" width="150">
+                <figcaption>Mariana Silva - Instrutora de Segurança</figcaption>
+            </figure>
+
+            <figure>
+                <img src="imagens/equipe3.jpg" alt="Atendimento ao cliente" width="150">
+                <figcaption>João Pereira - Atendimento ao Cliente</figcaption>
+            </figure>
+
+        </section>
+
+        <section>
+            <h2>Envie sua mensagem</h2>
+
+            <form method="post">
+
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <p>Motivo do contato:</p>
+
+                <label>
+                    <input type="radio" name="motivo" value="geral">
+                    Consulta Geral
+                </label>
+
+                <label>
+                    <input type="radio" name="motivo" value="reserva">
+                    Pergunta sobre Reserva
+                </label>
+
+                <label>
+                    <input type="radio" name="motivo" value="sugestao">
+                    Sugestão de Site
+                </label>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
+
+                <label>
+                    <input type="checkbox" name="newsletter">
+                    Quero receber a newsletter mensal
+                </label>
+
+                <button type="submit">Enviar Mensagem</button>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>&copy; 2026 Rafting Nathalia - Nathalia L Monte da Rocha. Todos os direitos reservados.</p>
+
+        <nav class="socialmedia">
+            <a href="facebook.html"><img src="imagens/facebook.png" alt="Facebook" width="30"></a>
+            <a href="instagram.html"><img src="imagens/instagram.png" alt="Instagram" width="30"></a>
+            <a href="twitter.html"><img src="imagens/twitter.png" alt="Twitter" width="30"></a>
+        </nav>
+
+    </footer>
+
+</body>
+</html>
