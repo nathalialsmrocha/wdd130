@@ -1,124 +1,102 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+<!DOCTYPE html> 
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <meta name="description" content="Fale com a Rafting Nathalia. Tire dúvidas, faça reservas ou envie sugestões sobre nossos passeios de rafting.">
-    <meta name="author" content="Nathalia L Monte da Rocha">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Entre em contato com a Rafting Nathália para tirar dúvidas, fazer reservas ou dar sugestões sobre nossos passeios.">
+    <meta name="author" content="Nathália L. S. Monte Rocha">
     <link rel="stylesheet" href="estilos/rafting.css">
-
-    <title>Fale Conosco - Rafting Nathalia</title>
+    <title>Fale Conosco - Rafting Nathália</title>
 </head>
-
 <body>
 
     <header>
-        <img src="imagens/logo.png" alt="Logo da Empresa" width="150">
-
-        <nav>
-            <ul>
-                <li><a href="index.html">Página Inicial</a></li>
-                <li><a href="sobre.html">Sobre Nós</a></li>
-                <li><a href="passeios.html">Passeios</a></li>
-                <li><a href="contato.html">Fale Conosco</a></li>
-            </ul>
+       <img src="imagens/logo.png" alt="Logo da Empresa" width="150">
+       <nav>
+           <ul>
+               <li><a href="index.html">Página Inicial</a></li>
+               <li><a href="sobre.html">Sobre Nós</a></li>
+               <li><a href="passeios.html">Passeios</a></li>
+               <li><a href="contato.html">Fale Conosco</a></li>
+           </ul>
         </nav>
     </header>
 
     <main>
+        <h1>Fale Conosco - Rafting Nathália</h1>
+        <h2>Rua Joaquim Cavalcante de Santana, 20 - Bairro Novo</h2>
+        <h2>Camaragibe, Pernambuco</h2>
+        <h2>+55 81 99634-2969</h2>
+        <h2>nathalialsmrocha@gmail.com</h2>
 
-        <section>
-            <h1>Fale Conosco</h1>
+        <section class="conteudo-contato">
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.7774075992143!2d-34.98818865967098!3d-8.021873780104288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1b641260f403%3A0x2137398ad203934c!2sRua%20Joaquim%20Cavalcante%20de%20Santana%2C%2020%20-%20Centro%2C%20Camaragibe%20-%20PE%2C%2054765-130!5e0!3m2!1spt-BR!2sbr!4v1781302779034!5m2!1spt-BR!2sbr" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
 
-            <p><strong>Endereço:</strong> Rua das Aventuras, 100 - Pernambuco, Brasil</p>
-            <p><strong>Telefone:</strong> (81) 99999-9999</p>
-            <p><strong>E-mail:</strong> contato@raftingnathalia.com</p>
+            <form>
+                <div class="linha-form">
+                    <label for="q1">Nome:</label>
+                    <input type="text" name="q1" id="q1">
+                </div>
+                
+                <div class="linha-form">
+                    <label for="q2">E-mail:</label>
+                    <input type="email" name="q2" id="q2">
+                </div>
 
-            <!-- 🗺️ MAPA DO GOOGLE PRONTO -->
-            <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3949.9628!2d-34.8813!3d-8.0476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18a1c0f000001%3A0x0!2sRecife%2C%20PE!5e0!3m2!1spt-BR!2sbr!4v1718030000000"
-                width="100%" 
-                height="300"
-                loading="lazy">
-            </iframe>
+                <div class="linha-form">
+                    <p>Propósito da Mensagem</p>
 
-        </section>
+                    <div class="coluna-opcoes">
+                        <label><input type="radio" id="duvida-geral" name="proposito" value="duvida-enviada">Dúvida Geral</label>
+                        <label><input type="radio" id="pergunta-reserva" name="proposito" value="pergunta-enviada">Pergunta sobre Reserva</label>
+                        <label><input type="radio" id="sugestao" name="proposito" value="sugestao-enviada">Sugestão</label>
+                    </div>
+                </div>
 
-        <section>
-            <h2>Nossa Equipe</h2>
+                <div class="linha-form">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+                </div>
 
-            <figure>
-                <img src="imagens/equipe1.jpg" alt="Guia de rafting" width="150">
-                <figcaption>Lucas Andrade - Guia Principal</figcaption>
-            </figure>
-
-            <figure>
-                <img src="imagens/equipe2.jpg" alt="Instrutora de segurança" width="150">
-                <figcaption>Mariana Silva - Instrutora de Segurança</figcaption>
-            </figure>
-
-            <figure>
-                <img src="imagens/equipe3.jpg" alt="Atendimento ao cliente" width="150">
-                <figcaption>João Pereira - Atendimento ao Cliente</figcaption>
-            </figure>
-
-        </section>
-
-        <section>
-            <h2>Envie sua mensagem</h2>
-
-            <form method="post">
-
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
-
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required>
-
-                <p>Motivo do contato:</p>
-
-                <label>
-                    <input type="radio" name="motivo" value="geral">
-                    Consulta Geral
-                </label>
-
-                <label>
-                    <input type="radio" name="motivo" value="reserva">
-                    Pergunta sobre Reserva
-                </label>
-
-                <label>
-                    <input type="radio" name="motivo" value="sugestao">
-                    Sugestão de Site
-                </label>
-
-                <label for="mensagem">Mensagem:</label>
-                <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
-
-                <label>
-                    <input type="checkbox" name="newsletter">
-                    Quero receber a newsletter mensal
-                </label>
-
-                <button type="submit">Enviar Mensagem</button>
+                <label><input type="checkbox" id="inscricao" name="inscricao">Por favor, me inscreva na newsletter mensal</label>
+                <button type="submit">Entrar em Contato</button>
 
             </form>
-        </section>
 
+        </section>
+              
+        <section>
+            <h2>Estamos Aqui para Servi-lo</h2>
+            <div class="bloco_imagens">
+                <figure>
+                    <img src="imagens/diretor-aventura.jpg" alt="Imagem de aventura" width="100">
+                    <figcaption>Diretora de Aventura da Rafting Nathália</figcaption>
+                </figure>
+                <figure>
+                    <img src="imagens/perfil.jpg" alt="Imagem de natureza" width="100">
+                    <figcaption>CEO da Rafting Nathália</figcaption>
+                </figure>
+                <figure>
+                    <img src="imagens/diretor-seguranca.jpg" alt="Imagem de segurança" width="100">
+                    <figcaption>Diretor de Segurança da Rafting Nathália</figcaption>
+                </figure>   
+            </div>
+        </section>  
     </main>
+
 
     <footer>
 
-        <p>&copy; 2026 Rafting Nathalia - Nathalia L Monte da Rocha. Todos os direitos reservados.</p>
+            <p>&copy; 2026 Rafting Nathália - Nathália L. S. Monte Rocha. Todos os direitos reservados.</p>
 
-        <nav class="socialmedia">
-            <a href="facebook.html"><img src="imagens/facebook.png" alt="Facebook" width="30"></a>
-            <a href="instagram.html"><img src="imagens/instagram.png" alt="Instagram" width="30"></a>
-            <a href="twitter.html"><img src="imagens/twitter.png" alt="Twitter" width="30"></a>
-        </nav>
+            <nav class="redes-sociais">
+                <a href="facebook.html"><img src="imagens/facebook.png" alt="Facebook" width="30"></a>
+                <a href="instagram.html"><img src="imagens/instagram.png" alt="Instagram" width="30"></a>
+                <a href="twitter.html"><img src="imagens/twitter.png" alt="Twitter" width="30"></a>
+            </nav>
 
     </footer>
 
